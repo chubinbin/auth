@@ -18,4 +18,7 @@ return array(
 		//'path' => '/session/tmp_s/',
 		'expire' => 120,
 	),
+	
+	'URL_MODEL'=>'2',
+    'URL_ROUTER_ON' =>true,
 );
