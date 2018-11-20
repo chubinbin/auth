@@ -1,0 +1,43 @@
+[ 2018-08-07T14:06:52+08:00 ] ::1 /Auth--master/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `admin_auth_rule` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `admin_auth_rule` WHERE `menu_name` = 'Index/index' AND `status` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: Run Admin\Behaviors\OptionRecordBehavior [ RunTime:1.109063s ]
+INFO: [ action_begin ] --END-- [ RunTime:1.109063s ]
+
+[ 2018-08-07T14:06:53+08:00 ] ::1 /Auth--master/index.php/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ action_begin ] --START--
+SQL: SHOW COLUMNS FROM `admin_auth_rule` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `admin_auth_rule` WHERE `menu_name` = 'Login/login' AND `status` = 1 LIMIT 1   [ RunTime:0.0020s ]
+INFO: Run Admin\Behaviors\OptionRecordBehavior [ RunTime:1.032059s ]
+INFO: [ action_begin ] --END-- [ RunTime:1.032059s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-08-07T14:06:53+08:00 ] ::1 /Auth--master/Public/Images/login-bg-1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
