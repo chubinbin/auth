@@ -1,5 +1,5 @@
 {
-    "name": "topthink/thinkphp",
+    "name": "chubinbin/tp_auth",
     "description": "the ThinkPHP Framework",
     "type": "framework",
     "keywords": ["framework","thinkphp","ORM"],
