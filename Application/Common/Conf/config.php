@@ -7,8 +7,8 @@ return array(
     'DB_TYPE'                       => 'mysql', // 数据库类型
     'DB_HOST'                       => 'localhost', // 服务器地址
     'DB_NAME'                       => 'auth', // 数据库名
-    'DB_USER'                       => 'root', // 用户名
-    'DB_PWD'                        => '#Admin123', // 密码
+    'DB_USER'                       => 'XXXXXXXX', // 用户名
+    'DB_PWD'                        => 'XXXXXXXX', // 密码
     'DB_PORT'                       =>  3306, // 端口
     'DB_CHARSET'                    =>  'utf8', // 字符集
     'DATA_CACHE_TIME'               =>  600,
